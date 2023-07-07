@@ -9,7 +9,7 @@ from Uputt.helpers import join
 from Uputt.helpers.misc import create_botlog, heroku
 
 BOT_VER = "2.0.0"
-CMD_HANDLER = [".", "?", "!", "*"]
+CMD_HANDLER = ["." "?" "!" "*"]
 MSG_ON = """
 〆 **Uputt-Pyrobot Di Aktifkan** 〆
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾

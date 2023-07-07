@@ -1,0 +1,47 @@
+{
+  "name": "Uputt-Pyrobot",
+  "description": "[Uputt-Pyrobot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.  Powered by Uputt-Pyrobot.",
+  "stack": "heroku-22",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Buatlah Sebuah Bot Di BotFather Lalu Salin Token Bot Nya",
+      "required": true
+    },
+    "STRING_SESSION1": {
+      "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/UputtSupport » Lalu ketik #string",
+      "required": true
+    },
+    "OPENAI_API_KEY": {
+            "description": "Ambil Api Key nya Di https://openai.com/api/",
+            "required": false,
+            "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Masukan Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}

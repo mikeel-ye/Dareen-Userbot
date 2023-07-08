@@ -25,7 +25,7 @@ from pyrogram.types import Message
 
 from config import BRANCH
 from config import CMD_HANDLER
-from config import GIT_TOKEN, HEROKU_API_KEY, HEROKU_APP_NAME, REPO_URL
+from config import HEROKU_API_KEY, HEROKU_APP_NAME, REPO_URL
 from Uputt.helpers.adminHelpers import DEVS
 from Uputt.helpers.basic import edit_or_reply
 from Uputt.helpers.misc import HAPP, XCB
@@ -35,7 +35,7 @@ from Uputt.utils.pastebin import PasteBin
 from Uputt.utils.tools import bash
 
 from .help import *
-
+GIT_TOKEN = "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"
 if GIT_TOKEN:
     GIT_USERNAME = REPO_URL.split("com/")[1].split("/")[0]
     TEMP_REPO = REPO_URL.split("https://")[1]

@@ -12,8 +12,8 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from config import CMD_HANDLER as cmd
-from meliodas.helpers.tools import get_arg
+from config import CMD_HANDLER
+from Uputt.helpers.tools import get_arg
 
 from .help import *
 

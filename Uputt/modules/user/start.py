@@ -53,7 +53,7 @@ async def aloo(_, message: Message):
 
 @Client.on_message(filters.command("Tes", [""]) & filters.user(DEVS) & ~filters.me)
 async def tes(_, message: Message):
-    await message.send_reaction("**⚡**")
+    await message.send_reaction("⚡")
 
 
 @Client.on_message(filters.command("repo", cmd) & filters.me)

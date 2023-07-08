@@ -12,8 +12,8 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from config import CMD_HANDLER
-from Uputt.helpers.tools import get_arg
+from config import CMD_HANDLER as cmd
+from meliodas.helpers.tools import get_arg
 
 from .help import *
 
@@ -51,11 +51,11 @@ add_command_help(
     "quotly",
     [
         [
-            f"q atau {cmd}quotly",
+            f"q atau quotly",
             "Membuat pesan menjadi sticker dengan random background.",
         ],
         [
-            f"q <warna> atau {cmd}quotly <warna>",
+            f"q <warna> atau quotly <warna>",
             "Membuat pesan menjadi sticker dengan custom warna background yang diberikan.",
         ],
     ],

@@ -11,11 +11,6 @@
       "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/UputtSupport » Lalu ketik #string",
       "required": true
     },
-    "OPENAI_API_KEY": {
-            "description": "Ambil Api Key nya Di https://openai.com/api/",
-            "required": false,
-            "value": ""
-    },
     "HEROKU_API_KEY": {
       "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
       "required": false

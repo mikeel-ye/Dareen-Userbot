@@ -105,7 +105,6 @@ logouputt = [
 alive_logo = random.choice(logouputt)
 
 async def peler_function(message: Message, answers):
-    file_id = alive_logo
     msg = (
         f"𝚄𝙿𝚄𝚃𝚃-𝙿𝚈𝚁𝙾𝙱𝙾𝚃 \n"
         "ㅤㅤStatus : Ubot Aktif🐣 \n"
@@ -116,6 +115,7 @@ async def peler_function(message: Message, answers):
     answers.append(
         InlineQueryResultArticle(
             title="alive",
+            file_id="alive_logo"
             description="Check Bot's Stats",
             thumb_url="https://telegra.ph/file/b42b7a4a22ba89287cad4.jpg",
             input_message_content=InputTextMessageContent(

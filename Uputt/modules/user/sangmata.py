@@ -53,6 +53,7 @@ async def sg(client: Client, message: Message):
         elif stalk:
             await message.reply(stalk.text)
             await stalk.delete()
+    user_info = await client.resolve_peer(bot)
     return await client.send(DeleteHistory(peer=user_info, max_id=0, revoke=True))
 
 

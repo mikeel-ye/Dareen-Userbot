@@ -22,7 +22,6 @@ from pyrogram.types import (
     Message,
 )
 from Uputt.helpers.data import Data
-from Uputt.modules.bot import alive_logo
 from Uputt.helpers.inline import inline_wrapper, paginate_help
 from config import BOT_VER, BRANCH as branch
 from Uputt import CMD_HELP, StartTime, app
@@ -94,6 +93,15 @@ async def pingme(client: Client, message: Message):
         f"├• **Uptime -** `{uptime}` \n"
         f"└• **Owner :** {client.me.mention}" % (duration)
     )
+
+logouputt = [
+    "https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg",
+    "https://telegra.ph/file/17770ad693a43ebeb0fb6.jpg",
+    "https://telegra.ph/file/fd3b8cc06dfd345d96362.jpg",
+    "https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg"
+]
+
+alive_logo = random.choice(logouputt)
 
 async def peler_function(message: Message, answers):
     file_id = alive_logo

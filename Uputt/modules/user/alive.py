@@ -40,7 +40,7 @@ alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "Hi I'm Alive"
 
 
 @Client.on_message(filters.command(["alip", "awake"], cmd) & filters.me)
-async def alive(client: Client, message: Message):
+async def alip(client: Client, message: Message):
     Uputt = await edit_or_reply(message, "🥵")
     await asyncio.sleep(2)
     sad = client.send_video if alive_logo.endswith(".mp4") else client.send_photo

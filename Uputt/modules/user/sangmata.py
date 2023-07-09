@@ -30,7 +30,7 @@ async def sg(client: Client, message: Message):
             user = await client.get_users(args)
         except Exception:
             return await lol.edit(f"`Please specify a valid user!`")
-    bot = "SangMata_beta_bot"
+    bot = "@SangMata_BOT"
     try:
         await client.send_message(bot, f"{user.id}")
     except YouBlockedUser:
@@ -52,6 +52,7 @@ async def sg(client: Client, message: Message):
         elif stalk:
             await message.reply(stalk.text)
             await stalk.delete()
+    return await client.send(DeleteHistory(peer=user_info, max_id=0, revoke=True))
 
 
 add_command_help(

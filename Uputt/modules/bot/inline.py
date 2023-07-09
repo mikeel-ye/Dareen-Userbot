@@ -22,6 +22,7 @@ from pyrogram.types import (
     Message,
 )
 from Uputt.helpers.data import Data
+from Uputt.modules.bot import alive_logo
 from Uputt.helpers.inline import inline_wrapper, paginate_help
 from config import BOT_VER, BRANCH as branch
 from Uputt import CMD_HELP, StartTime, app
@@ -95,6 +96,7 @@ async def pingme(client: Client, message: Message):
     )
 
 async def peler_function(message: Message, answers):
+    file_id = alive_logo
     msg = (
         f"𝚄𝙿𝚄𝚃𝚃-𝙿𝚈𝚁𝙾𝙱𝙾𝚃 \n"
         "ㅤㅤStatus : Ubot Aktif🐣 \n"

@@ -12,6 +12,7 @@ import asyncio
 from pyrogram import *
 from pyrogram import filters
 from pyrogram.errors import YouBlockedUser
+from pyrogram.raw.functions.messages import DeleteHistory
 from pyrogram.types import *
 
 from config import CMD_HANDLER

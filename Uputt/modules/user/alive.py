@@ -33,10 +33,10 @@ from .help import *
 
 modules = CMD_HELP
 alive_logo = (
-    gvarstatus("ALIVE_LOGO") or "https://telegra.ph//file/9df7fad22722b9110c2ac.jpg"
+    gvarstatus("ALIVE_LOGO") or "https://telegra.ph/file/b42b7a4a22ba89287cad4.jpg"
 )
 emoji = gvarstatus("ALIVE_EMOJI") or "🐣"
-alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "Anu☺"
+alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "Hi I'm Alive"
 
 
 @Client.on_message(filters.command(["alip", "awake"], cmd) & filters.me)

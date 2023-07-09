@@ -115,7 +115,7 @@ async def peler_function(message: Message, answers):
     answers.append(
         InlineQueryResultArticle(
             title="alive",
-            file_id="alive_logo"
+            file_id="alive_logo",
             description="Check Bot's Stats",
             thumb_url="https://telegra.ph/file/b42b7a4a22ba89287cad4.jpg",
             input_message_content=InputTextMessageContent(

@@ -10,6 +10,7 @@ import os
 import shlex
 import textwrap
 import asyncio
+import random
 
 from pyrogram import Client
 from pyrogram import __version__ as pyrover

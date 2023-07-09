@@ -40,13 +40,13 @@ alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "Hi I'm Alive"
 
 
 @Client.on_message(filters.command(["alip", "awake"], cmd) & filters.me)
-async def alip(client: Client, message: Message):
+async def alive(client: Client, message: Message):
     Uputt = await edit_or_reply(message, "🥵")
     await asyncio.sleep(2)
-    send = client.send_video if alive_logo.endswith(".mp4") else client.send_photo
+    sad = client.send_video if alive_logo.endswith(".mp4") else client.send_photo
     uptime = await get_readable_time((time.time() - StartTime))
     man = (
-        f"** [Uputt-Pyrobot](https://github.com/iamuput/Uputt-Pyrobot) **\n\n"
+        f"****\n\n"
         f"<b>{alive_text}</b>\n\n"
         f"{emoji} <b>Mᴀsᴛᴇʀ :</b> {client.me.mention} \n"
         f"{emoji} <b>Mᴏᴅᴜʟᴇs :</b> <code>{len(modules)} Modules</code> \n"
@@ -57,17 +57,15 @@ async def alip(client: Client, message: Message):
         f"    **『 [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/{GROUP})** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/{CHANNEL})** | **[𝗢𝘄𝗻𝗲𝗿](tg://user?id={client.me.id}) 』**"
     )
     try:
-        await asyncio.gather(
-            Uputt.delete(),
-            send(
+      await sad(
                 message.chat.id,
                 alive_logo,
                 caption=man,
                 reply_to_message_id=ReplyCheck(message),
-            ),
-        )
-    except BaseException:
-        await Uputt.edit(man, disable_web_page_preview=True)
+            )
+      await Uputt.delete()
+    except:
+      await Uputt.edit(man, disable_web_page_preview=True)
 
 
 @Client.on_message(filters.command("setalivelogo", cmd) & filters.me)

@@ -10,7 +10,6 @@ import os
 import shlex
 import textwrap
 import asyncio
-import random
 
 from pyrogram import Client
 from pyrogram import __version__ as pyrover
@@ -95,15 +94,6 @@ async def pingme(client: Client, message: Message):
         f"└• **Owner :** {client.me.mention}" % (duration)
     )
 
-logouputt = [
-    "https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg",
-    "https://telegra.ph/file/17770ad693a43ebeb0fb6.jpg",
-    "https://telegra.ph/file/fd3b8cc06dfd345d96362.jpg",
-    "https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg"
-]
-
-alive_logo = random.choice(logouputt)
-
 async def peler_function(message: Message, answers):
     msg = (
         f"𝚄𝙿𝚄𝚃𝚃-𝙿𝚈𝚁𝙾𝙱𝙾𝚃 \n"
@@ -115,7 +105,6 @@ async def peler_function(message: Message, answers):
     answers.append(
         InlineQueryResultArticle(
             title="alive",
-            file_id="alive_logo",
             description="Check Bot's Stats",
             thumb_url="https://telegra.ph/file/b42b7a4a22ba89287cad4.jpg",
             input_message_content=InputTextMessageContent(

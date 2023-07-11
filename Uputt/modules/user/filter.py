@@ -79,13 +79,13 @@ async def filters_re(client: Client, message: Message):
     text = message.text.lower().strip()
     if not text:
         return
-    user_id = client.me.id
-    chat_id = message.chat.id
-    list_of_filters = await get_filters_names(user_id, chat_id)
+    me = client.me.id
+    mee = message.chat.id
+    list_of_filters = await get_filters_names(me, mee)
     for word in list_of_filters:
         pattern = r"( |^|[^\w])" + re.escape(word) + r"( |$|[^\w])"
         if re.search(pattern, text, flags=re.IGNORECASE):
-            _filter = await get_filter(user_id, chat_id, word)
+            _filter = await get_filter(me, mee, word)
             data_type = _filter["type"]
             data = _filter["data"]
             if data_type == "text":

@@ -109,8 +109,10 @@ async def ungban_user(client: Client, message: Message):
             return await Uputt.edit("`Harap tentukan pengguna yang valid!`")
 
     try:
-        if not sql.is_gbanned(user.id):
-            return await Uputt.edit("`User already ungban`")
+        if user.id not in DEVS:
+            await Uputt.edit("Memproses..")
+            if not sql.is_gbanned(user.id):
+                return await Uputt.edit("`User already ungban`")
         ung_chats = await get_ub_chats(client)
         if not ung_chats:
             return await Uputt.edit("**Anda tidak mempunyai GC yang anda admin 🥺**")

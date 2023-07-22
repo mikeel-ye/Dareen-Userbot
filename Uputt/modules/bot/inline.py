@@ -68,7 +68,7 @@ async def alive_function(message: Message, answers):
 """
     answers.append(
         InlineQueryResultArticle(
-            title="alip",
+            title="alipp",
             description="Check Bot's Stats",
             thumb_url="https://telegra.ph/file/b42b7a4a22ba89287cad4.jpg",
             input_message_content=InputTextMessageContent(
@@ -143,7 +143,7 @@ async def inline_query_handler(client: Client, query):
         answers = []
         if text.strip() == "":
             return
-        elif text.split()[0] == "alip":
+        elif text.split()[0] == "alipp":
             answerss = await alive_function(query, answers)
             await client.answer_inline_query(query.id, results=answerss, cache_time=10)
         elif string_given.startswith("helper"):

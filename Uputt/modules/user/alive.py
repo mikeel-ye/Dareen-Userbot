@@ -44,7 +44,7 @@ alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "l am alive✨"
 async def alip(client: Client, message: Message):
     Uput = await edit_or_reply(message, "🥶")
     await asyncio.sleep(2)
-    send = client.send_video if alive_logo.endswith(".mp4") else client.send_photo
+    sad = client.send_video if alive_logo.endswith(".mp4") else client.send_photo
     uptime = await get_readable_time((time.time() - StartTime))
     man = (
         f"<b>{alive_text}</b>\n\n"
@@ -59,7 +59,7 @@ async def alip(client: Client, message: Message):
         f"{emoji}**[𝗢𝘄𝗻𝗲𝗿](tg://user?id={client.me.id}) ** \n"
     )
     try:
-      await send(
+      await sad(
                 message.chat.id,
                 alive_logo,
                 caption=man,

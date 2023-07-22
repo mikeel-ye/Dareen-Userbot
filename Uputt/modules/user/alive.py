@@ -41,19 +41,19 @@ alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "Hi I'm Alive"
 
 @Client.on_message(filters.command(["alip", "awake"], cmd) & filters.me)
 async def alip(client: Client, message: Message):
-    Uputt = await edit_or_reply(message, "🥵")
+    Uput = await edit_or_reply(message, "🔥")
     await asyncio.sleep(2)
     sad = client.send_video if alive_logo.endswith(".mp4") else client.send_photo
     uptime = await get_readable_time((time.time() - StartTime))
     man = (
         f"****\n\n"
         f"<b>{alive_text}</b>\n\n"
-        f"{emoji} <b>Mᴀsᴛᴇʀ :</b> {client.me.mention} \n"
-        f"{emoji} <b>Mᴏᴅᴜʟᴇs :</b> <code>{len(modules)} Modules</code> \n"
-        f"{emoji} <b>Bᴏᴛ Vᴇʀsɪᴏɴ:</b> <code>{BOT_VER}</code> \n"
-        f"{emoji} <b>Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :</b> <code>{python_version()}</code> \n"
-        f"{emoji} <b>Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :</b> <code>{versipyro}</code> \n"
-        f"{emoji} <b>Bᴏᴛ Uᴘᴛɪᴍᴇ :</b> <code>{uptime}</code> \n\n"
+        f"{emoji} <b>Master :</b> {client.me.mention} \n"
+        f"{emoji} <b>Modules :</b> <code>{len(modules)} Modules</code> \n"
+        f"{emoji} <b>Versi:</b> <code>{BOT_VER}</code> \n"
+        f"{emoji} <b>Python :</b> <code>{python_version()}</code> \n"
+        f"{emoji} <b>Pyrogram :</b> <code>{versipyro}</code> \n"
+        f"{emoji} <b>Uptime :</b> <code>{uptime}</code> \n\n"
         f"    **『 [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/{GROUP})** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/{CHANNEL})** | **[𝗢𝘄𝗻𝗲𝗿](tg://user?id={client.me.id}) 』**"
     )
     try:
@@ -63,9 +63,9 @@ async def alip(client: Client, message: Message):
                 caption=man,
                 reply_to_message_id=ReplyCheck(message),
             )
-      await Uputt.delete()
+      await Uput.deletr()
     except:
-      await Uputt.edit(man, disable_web_page_preview=True)
+      await Uput.edit(man, disable_web_page_preview=True)
 
 
 @Client.on_message(filters.command("setalivelogo", cmd) & filters.me)

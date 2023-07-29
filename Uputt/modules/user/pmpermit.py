@@ -258,7 +258,7 @@ async def onoff_pmpermit(client: Client, message: Message):
         await edit_or_reply(message, "**PMPERMIT Sudah Dimatikan**")
 
 
-@Client.on_message(filters.command("stmppt", cmd) & filters.me)
+@Client.on_message(filters.command("setpmpermit", cmd) & filters.me)
 async def stpmpt(client: Client, cust_msg: Message):
     """Set your own Unapproved message"""
     if gvarstatus("PMPERMIT") and gvarstatus("PMPERMIT") == "false":
@@ -282,7 +282,7 @@ async def stpmpt(client: Client, cust_msg: Message):
     await Uputt.edit("**Pesan Berhasil Disimpan Ke Room Chat**")
 
 
-@Client.on_message(filters.command("gtpprt", cmd) & filters.me)
+@Client.on_message(filters.command("getpmpermit", cmd) & filters.me)
 async def gtpmprmt(client: Client, cust_msg: Message):
     if gvarstatus("PMPERMIT") and gvarstatus("PMPERMIT") == "false":
         return await cust_msg.edit(

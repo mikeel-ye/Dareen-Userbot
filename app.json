@@ -1,6 +1,6 @@
 {
   "name": "Dareen-Userbot",
-  "description": "[Uputt-Pyrobot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.  Powered by Dareen-Userbot.",
+  "description": "[Dareen-Userbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.  Powered by Dareen-Userbot.",
   "stack": "heroku-22",
   "env": {
     "BOT_TOKEN": {

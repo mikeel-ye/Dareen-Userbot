@@ -10,19 +10,19 @@
 class First:
     ALIVE = "`Still Working On Fire 🔥`"
     REPO = """
-**Hey**, __I am using__ ✨ **𝚄𝙿𝚄𝚃𝚃-𝙿𝚈𝚁𝙾𝙱𝙾𝚃** ✨
+**Hey**, __I am using__ ✨ **Dareen-Userbot** ✨
 
 ✣ **Userbot Version :** `{}`
-✣ **Group Support :** [UputtSupport](t.me/uputtsupport)
-✣ **Channel Uputt :** [Amneseey0u](t.me/amneseey0u)
+✣ **Group Support :** [DareenSupport](t.me/dareensupport)
+✣ **Channel Uputt :** [Damn Dareen](t.me/skandallgua)
 ✣ **Owner Repo :** [Uputt](t.me/iamuput)
-✣ **Repo :** [Uputt-Pyrobot](https://github.com/iamuput/Uputt-Pyrobot)
+✣ **Repo :** [Dareen-Userbot](https://github.com/mikeel-ye/Dareen-Userbot.git/Dareen-Userbot)
 
 
-Powered by [Uputt-Pyrobot](https://github.com/iamuput/Uputt-Pyrobot)"""
-    CREATOR = 'I was created by my master <a href="https://github.com/iamuput/Uputt-Pyrobot">Man</a> on a rainy day.'
+Powered by [Dareen-Userbot](https://github.com/mikeel-ye/Dareen-Userbot.git)"""
+    CREATOR = 'I was created by my master <a href="https://github.com/mikeel-ye/Dareen-Userbot.git">Man</a> on a rainy day.'
     MSG_ON = """
-🐣 **Uputt-Pyrobot Berhasil Di Aktifkan** 🐣
+🐣 **Dareen-Userbot Berhasil Di Aktifkan** 🐣
 ━━
 ➠ **Userbot Version -** `{}`
 ➠ **Ketik** `{}alive` **untuk Mengecheck Bot**

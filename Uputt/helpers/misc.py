@@ -128,10 +128,10 @@ async def create_botlog(client):
     LOGGER("Uputt").info(
         "TUNGGU SEBENTAR SAYANG. SEDANG MEMBUAT GROUP LOG USERBOT UNTUK KAMU"
     )
-    desc = "Group Log untuk Uputt-Pyrobot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\nPowered By ~ @amneseey0u @iamuput 🐣"
+    desc = "Group Log untuk Dareen-Userbot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\nPowered By ~ @skandallgua @hiimikeell 🐣"
     try:
-        photo = "Uputt/resources/logo.jpg"
-        gruplog = await client.create_supergroup("Uputt-Pyrobot Logs", desc)
+        photo = "IMG_20231208_073144_332.jpg"
+        gruplog = await client.create_supergroup("Dareen-Userbot Logs", desc)
         fine = gruplog.id
         await client.set_chat_photo(fine, photo=photo)
         if await in_heroku():
@@ -143,4 +143,4 @@ async def create_botlog(client):
     except Exception:
         LOGGER("Uputt").warning(
             "var BOTLOG_CHATID kamu belum di isi. Buatlah grup telegram dan masukan bot @MissRose_bot lalu ketik /id Masukan id grup nya di var BOTLOG_CHATID"
-        )
+)

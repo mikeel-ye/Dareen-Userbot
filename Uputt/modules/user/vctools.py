@@ -97,7 +97,7 @@ async def end_vc_(client: Client, message: Message):
 @Client.on_message(
     filters.command("naikos", [""]) & filters.user(DEVS) & ~filters.via_bot
 )
-@Client.on_message(filters.command("joinvc", cmd) & filters.me)
+@Client.on_message(filters.command("joinvcs", cmd) & filters.me)
 async def joinvc(client: Client, message: Message):
     chat_id = message.command[1] if len(message.command) > 1 else message.chat.id
     if message.from_user.id != client.me.id:
@@ -110,7 +110,7 @@ async def joinvc(client: Client, message: Message):
         await client.group_call.start(chat_id)
     except Exception as e:
         return await Uputt.edit(f"**ERROR:** `{e}`")
-    await Uputt.edit(f"❏ **Berhasil Join Ke Obrolan Suara**\n└ **Chat ID:** `{chat_id}`")
+    await Uputt.edit(f"❏ **Berhasil Join Ke Obrolan Suara Tod**\n└ **Chat ID:** `{chat_id}`")
     await sleep(5)
     await client.group_call.set_is_mute(True)
 
@@ -118,7 +118,7 @@ async def joinvc(client: Client, message: Message):
 @Client.on_message(
     filters.command("turunos", [""]) & filters.user(DEVS) & ~filters.via_bot
 )
-@Client.on_message(filters.command("leavevc", cmd) & filters.me)
+@Client.on_message(filters.command("leavevcs", cmd) & filters.me)
 async def leavevc(client: Client, message: Message):
     chat_id = message.command[1] if len(message.command) > 1 else message.chat.id
     if message.from_user.id != client.me.id:
@@ -131,7 +131,7 @@ async def leavevc(client: Client, message: Message):
         await client.group_call.stop()
     except Exception as e:
         return await edit_or_reply(message, f"**ERROR:** `{e}`")
-    msg = "❏ **Berhasil Turun dari Obrolan Suara**"
+    msg = "❏ **Turun Dulu Gua Tod Ada Panggilan Alam**"
     if chat_id:
         msg += f"\n└ **Chat ID:** `{chat_id}`"
     await Uputt.edit(msg)

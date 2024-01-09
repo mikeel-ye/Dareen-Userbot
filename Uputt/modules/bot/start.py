@@ -25,7 +25,7 @@ def pmowner(client, callback_query):
     client.answer_callback_query(callback_query.id, text="Message sent")
 
 logouputt = [
-    https://telegra.ph//file/067dbc0672a362063cd7b.jpg
+    "https://telegra.ph//file/067dbc0672a362063cd7b.jpg"
 ]
 
 alive_logo = random.choice(logouputt)

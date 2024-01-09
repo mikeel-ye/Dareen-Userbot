@@ -23,8 +23,8 @@ from .help import *
 
 DEF_UNAPPROVED_MSG = (
     "PMSecurity of ㅤ˹ Dareen-Userbot ˼ !\n"
-"•Sabar Tolol Tuan Gua Masih Sibuk
-•Jangan Spam Ngentot Tar lu ke Blok Bego\n"
+"Sabar Tolol Tuan Gua Masih Sibuk
+Jangan Spam Ngentot Tar lu ke Blok Bego\n"
 )
 
 

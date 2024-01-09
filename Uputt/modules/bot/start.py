@@ -42,4 +42,4 @@ async def start(app, message):
         ],
     ])
 
-    await app.send_photo(chat_id, file_id, caption=caption, reply_markup=reply_markup
+    await app.send_photo(chat_id, file_id, caption=caption, reply_markup=reply_markup)

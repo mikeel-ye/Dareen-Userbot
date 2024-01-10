@@ -11,10 +11,10 @@
       "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/Dareensupport » Lalu ketik #string",
       "required": true
     },
-        "OPENAI_API_KEY": {
-            "description": "Ambil Api Key nya Di https://openai.com/api/",
-            "required": false,
-            "value": ""
+        "BOTLOG_CHATID": {
+            "description": "Buatlah Group Lalu Tambahkan @missrosebot ketik /id",
+            "required": true,
+            "value": "-100"
     },
     "HEROKU_API_KEY": {
       "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",

@@ -51,9 +51,14 @@ async def aloo(_, message: Message):
     await message.reply("**Iyaa hlooo jugaa dareen gantengg 😍**")
 
 
+@Client.on_message(filters.command("Dareen", [""]) & filters.user(DEVS) & ~filters.me)
+async def aloo(_, message: Message):
+    await message.reply("**Ituu Yang bikin Gua Tolol Wahaha😡**")
+
+
 @Client.on_message(filters.command("tes", [""]) & filters.user(DEVS))
 async def tes(client, message: Message):
-    await client.send_reaction(message.chat.id, message.id, "🔱")
+    await client.send_reaction(message.chat.id, message.id, "🤬")
 
 
 @Client.on_message(filters.command("repo", cmd) & filters.me)

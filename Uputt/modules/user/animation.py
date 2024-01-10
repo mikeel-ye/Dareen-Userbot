@@ -1447,14 +1447,14 @@ async def santet(client: Client, message: Message):
 @Client.on_message(filters.command(["ror", "ah"], cmd) & filters.me)
 async def hearts(client: Client, message: Message):
     await phase1(message)
-    await asyncio.sleep(SLEEP * 3)
-    await message.edit("Ror")
-    await asyncio.sleep(0.5)
-    await message.edit("Ror Ah")
-    await asyncio.sleep(0.5)
-    await message.edit("Ror Ah Ah")
-    await asyncio.sleep(3)
-    await message.edit("Ror Ah Ah Ah")
+    await asyncio.sleep(SLEEP * 1.5)
+    await message.edit("Rooor")
+    await asyncio.sleep(1)
+    await message.edit("Rooor Aahh")
+    await asyncio.sleep(1)
+    await message.edit("Rooor Aahh Aahh")
+    await asyncio.sleep(1)
+    await message.edit("Rooor Aahh Aahh Aahh")
 
 
 add_command_help(

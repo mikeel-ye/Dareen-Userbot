@@ -270,7 +270,7 @@ async def updaterman(client: Client, message: Message):
 add_command_help(
     "update",
     [
-        ["update", "Untuk melihat list pembaruan terbaru dari Uputt-Pyrobot."],
+        ["update", "Untuk melihat list pembaruan terbaru dari Dareen-Userbot."],
         ["update deploy", "Untuk mengupdate userbot."],
     ],
 )

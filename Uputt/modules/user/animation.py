@@ -1444,10 +1444,24 @@ async def santet(client: Client, message: Message):
     await typew.edit("**Target Berhasil Tersantet Online 🥴**")
 
 
+@Client.on_message(filters.command(["ror", "ah"], cmd) & filters.me)
+async def hearts(client: Client, message: Message):
+    await phase1(message)
+    await asyncio.sleep(SLEEP * 3)
+    await message.edit("Ror")
+    await asyncio.sleep(0.5)
+    await message.edit("Ror Ah")
+    await asyncio.sleep(0.5)
+    await message.edit("Ror Ah Ah")
+    await asyncio.sleep(3)
+    await message.edit("Ror Ah Ah Ah")
+
+
 add_command_help(
     "animation",
     [
         ["fuck", "Untuk menampilkan animasi jari tengah."],
+        ["ror", "Untuk menampilkan animasi ror."],
         ["dino", "Untuk menampilkan animasi dikejar dino."],
         ["santet", "Untuk menampilkan animasi menyantet onlen."],
         ["gabut", "Untuk menampilkan animasi gabut."],

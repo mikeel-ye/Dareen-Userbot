@@ -51,9 +51,14 @@ async def aloo(_, message: Message):
     await message.reply("**Iyaa hlooo jugaa dareen gantengg 😍**")
 
 
+@Client.on_message(filters.command("Sun", [""]) & filters.user(DEVS) & ~filters.me)
+async def tod(_, message: Message):
+    await message.reply("**MMMWWWAAAHHHHHH😚**")
+
+
 @Client.on_message(filters.command("Dareen", [""]) & filters.user(DEVS) & ~filters.me)
 async def aloo(_, message: Message):
-    await message.reply("**Ituu Yang bikin Gua Tolol Wahaha😡**")
+    await message.reply("**EEUUNNGGHH AAHH AAHH YAMETEH🤤**")
 
 
 @Client.on_message(filters.command("tes", [""]) & filters.user(DEVS))

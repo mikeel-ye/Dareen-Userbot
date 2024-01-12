@@ -18,8 +18,8 @@
     },
     "BOTLOG_CHAT_ID": {
       "description": "Buatlah Group Lalu Tambahkan @missrosebot lalu ketik /id",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "-100"
     },
     "HEROKU_API_KEY": {
       "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",

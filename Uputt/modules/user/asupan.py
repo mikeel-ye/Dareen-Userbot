@@ -13,7 +13,7 @@ from .help import *
 
 @Client.on_message(filters.command(["asupan", "ptl"], cmd) & filters.me)
 async def asupan_cmd(client: Client, message: Message):
-    Uputt = await edit_or_reply(message, "`Tunggu Sebentar...`")
+    Uputt = await edit_or_reply(message, "`Tunggu Lagi Cari Asupan Buat Lu...`")
     await gather(
         Uputt.delete(),
         client.send_video(
@@ -32,7 +32,7 @@ async def asupan_cmd(client: Client, message: Message):
 
 @Client.on_message(filters.command(["bkp"], cmd) & filters.me)
 async def bkp_cmd(client: Client, message: Message):
-    Uputt = await edit_or_reply(message, "`Tunggu Sebentar...`")
+    Uputt = await edit_or_reply(message, "`Tunggu Lagi Cari Bahan Coli Buat Lu..`")
     await gather(
         Uputt.delete(),
         client.send_video(

@@ -54,7 +54,7 @@ def cb_wrapper(func):
         users = list_users
         if cb.from_user.id not in users:
             await cb.answer(
-                "Tidak Semudah Itu Ferguso Yahahaha Hayuukkk",
+                "Yahahaa Gabisa Ya Kalo Mau Liat Buat Sendiri Wleeeee",
                 cache_time=0,
                 show_alert=True,
             )
@@ -86,7 +86,7 @@ def inline_wrapper(func):
                         InlineQueryResultArticle(
                             title="Maaf, Kamu Harus Menjadi Pengguna Sudo Untuk Memakai Saya!",
                             input_message_content=InputTextMessageContent(
-                                "Atau Kamu Bisa Membuatnya Sendiri Di @UputtSupport"
+                                "Atau Kamu Bisa Membuatnya Sendiri Di @dareensupport"
                             ),
                         )
                     )

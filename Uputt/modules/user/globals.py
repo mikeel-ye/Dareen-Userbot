@@ -52,10 +52,10 @@ async def gban_user(client: Client, message: Message):
     if user_id == client.me.id:
         return await Uputt.edit("**Ngapain NgeGban Diri Sendiri Pepek**")
     if user_id in DEVS:
-        return await Uputt.edit("**Gak Bisa Di Gban Kontol karena dia Yang Buat Aku 🗿**")
+        return await Uputt.edit("**Goblok Mana Bisa Di Gban Kontol karena dia Yang Buat Aku 🗿**")
     if user_id in WHITELIST:
         return await Uputt.edit(
-            "**Kau Gak Bisa Kontol Gban Dia Karena Dia Adalah admin @UputtSupport 😡**"
+            "**Kau Gak Bisa Kontol Gban Dia Karena Dia Adalah admin @Dareensupport 😡**"
         )
     if user_id:
         try:
@@ -176,7 +176,7 @@ async def gmute_user(client: Client, message: Message):
         return await Uputt.edit("**Gak Bisa Di Gmute Kontol karena dia Yang Buat Aku 🗿**")
     if user.id in WHITELIST:
         return await Uputt.edit(
-            "**Mana Bisa Anjing Gmute Admin @UputtSupport 😡**"
+            "**Mana Bisa Anjing Gmute Admin @Dareensupport 😡**"
         )
     try:
         replied_user = reply.from_user

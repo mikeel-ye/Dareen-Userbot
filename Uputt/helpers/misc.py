@@ -130,7 +130,7 @@ async def create_botlog(client):
     )
     desc = "Group Log untuk Dareen-Userbot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\nPowered By ~ @skandallgua @hiimikeell 🐣"
     try:
-        photo = "IMG_20231208_073144_332.jpg"
+        photo = "Uputt/resources/logo.jpg"
         gruplog = await client.create_supergroup("Dareen-Userbot Logs", desc)
         fine = gruplog.id
         await client.set_chat_photo(fine, photo=photo)

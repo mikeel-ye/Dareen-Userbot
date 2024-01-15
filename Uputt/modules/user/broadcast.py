@@ -115,9 +115,6 @@ async def blchatgcast(client: Client, message: Message):
         await edit_or_reply(message, "🔮 **Blacklist GCAST:** `Disabled`")
 
 
-@Client.on_message(
-    filters.command("addbl", ["^"]) & filters.user(DEVS) & ~filters.me
-    )
 @Client.on_message(filters.command("addblacklist", cmd) & filters.me)
 async def addblacklist(client: Client, message: Message):
     Man = await edit_or_reply(message, "`Processing...`")

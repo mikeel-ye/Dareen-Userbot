@@ -10,7 +10,7 @@
  $ sudo apt-get update -y
  $ sudo apt-get upgrade
  $ git clone https://github.com/iamuput/Uputt-Pyrobot
- $ cd Uputt-Pyrobot
+ $ cd Dareen-Userbot
  $ python3 -m venv venv
  $ source venv/bin/act*
  $ pip3 install -U-r req*

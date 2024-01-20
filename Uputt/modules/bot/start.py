@@ -39,6 +39,7 @@ async def start(app, message):
         [
             InlineKeyboardButton("Support", url="https://t.me/dareensupport"),
             InlineKeyboardButton("Channel", url="https://t.me/skandallgua"),
+            InlineKeyboardButton("Owner", url="https://t.me/hiimikeell"),
         ],
     ])
 

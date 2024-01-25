@@ -1,6 +1,8 @@
 {
   "name": "Dareen-Userbot",
   "description": "[Dareen-Userbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.  Powered by Dareen-Userbot.",
+    "logo": "https://telegra.ph//file/d77179f5ad209254a0ce4.jpg",
+
   "stack": "heroku-22",
   "env": {
     "BOT_TOKEN": {

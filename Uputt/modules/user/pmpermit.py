@@ -22,9 +22,10 @@ from Uputt.helpers.tools import get_arg
 from .help import *
 
 DEF_UNAPPROVED_MSG = (
-    "PMSecurity of ㅤ˹ Dareen-Userbot ˼ !\n"
-"Sabar Tolol Tuan Gua Masih Sibuk\n"
-"Jangan Spam Ngentot Tar lu ke Blok Bego\n"
+ "❏ ᴘᴍ sᴇᴄᴜʀɪᴛʏ ᴏғ  ˹ᴅᴀʀᴇᴇɴ - ᴜsᴇʀʙᴏᴛ˼ !\n"
+"├ sᴀʙᴀʀ ɴɢᴇɴᴛᴏᴛ ᴛᴜᴀɴ ɢᴜᴀ ᴍᴀsɪʜ sɪʙᴜᴋ\n"
+"├ ᴊᴀɴɢᴀɴ sᴘᴀᴍ ᴛᴏʟᴏʟ ᴛᴀʀ ʟᴜ ᴋᴇ ʙʟᴏᴋ ɢᴜᴀ ʏᴀɴɢ ʀᴇᴘᴏᴛ\n"
+"╰ ᴀᴘᴀ ᴍᴀᴜ ᴍᴀʀᴀʜ ᴇᴍᴀɴɢ ᴘᴜɴʏᴀ ᴛᴀᴛᴛᴏ?\n"
 )
 
 

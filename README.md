@@ -37,7 +37,7 @@
 - [OnlyMeriz](https://github.com/Onlymeriz)
 - [Kazu](https://github.com/ionmusic)
 - [Uputt](https://github.com/iamuput)
-- [Dareen] (https://github.com/mikeel-ye)
+- [Dareen](https://github.com/mikeel-ye)
 
 ## Credit 
 - Zaid Userbot

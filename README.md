@@ -1,7 +1,7 @@
 <p align="center"> 〆 ᴅᴀʀᴇᴇɴ - ᴜsᴇʀʙᴏᴛ 〆 </p>
 
 <p align="center">
-  <img src="https://telegra.ph//file/c650d4826af5002cded9c.jpg">
+  <img src="https://telegra.ph//file/d77179f5ad209254a0ce4.jpg">
 
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>

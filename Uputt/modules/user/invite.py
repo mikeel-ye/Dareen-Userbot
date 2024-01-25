@@ -83,7 +83,7 @@ add_command_help(
         ["invite @username", "Untuk Mengundang Anggota ke grup Anda."],
         [
             "inviteall @usernamegc",
-            "Untuk Mengundang Anggota dari obrolan grup lain ke obrolan grup Anda.",
+            "Untuk Mengundang Anggota dari obrolan grup lain ke obrolan grup Anda,(NOTES Untuk Id 6/5 Jangan Coba Coba Fitur Ini Ntar Deak Nangis).",
         ],
     ],
 )

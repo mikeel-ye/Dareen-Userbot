@@ -78,9 +78,9 @@ async def pingme(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await message.reply_text(
-        f"❏ **Pong !!**\n"
+        f"❏ **ᴘᴏɴɢ !!**\n"
         f"**├• ** `%sms`\n"
-        f"╰•** ᴅᴀᴊᴊᴀʟ :** {client.me.mention}" % (duration)
+        f"╰•** ᴜsᴇʀ :** {client.me.mention}" % (duration)
     )
 
 
@@ -98,7 +98,7 @@ async def pink(client: Client, message: Message):
         f"`%sms` \n"
         f"**├•  Uptime  :** "
         f"`{uptime}` \n"
-        f"**└•  Dajjal   :** {client.me.mention}" % (duration)
+        f"**└•  Bapaklu   :** {client.me.mention}" % (duration)
     )
   
 
@@ -125,6 +125,7 @@ async def uputt(client: Client, message: Message):
     await xx.edit("8=✊==D")
     await xx.edit("8==✊=D")
     await xx.edit("8===✊D")
+    await xx.edit("**AAHH UDAH MAU CROOTTT**")
     await xx.edit("8===✊D💦")
     await xx.edit("8====D💦💦")
     await xx.edit("**CROOTTTT**")
@@ -136,6 +137,6 @@ async def uputt(client: Client, message: Message):
         f"❏ **CROTTT!!🥵**\n"
         f"├• **AHHH🤤** - `%sms`\n"
         f"├• **Togel -** `{uptime}` \n"
-        f"└• **Dajjal :** {client.me.mention}" % (duration)
+        f"└• **Kontol :** {client.me.mention}" % (duration)
     )
 

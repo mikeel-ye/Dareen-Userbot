@@ -1,4 +1,4 @@
-<p align="center"> 〆 𝚄𝙿𝚄𝚃𝚃-𝙿𝚈𝚁𝙾𝙱𝙾𝚃 〆 </p>
+<p align="center"> 〆 ᴅᴀʀᴇᴇɴ - ᴜsᴇʀʙᴏᴛ 〆 </p>
 
 
 <p align="center">
@@ -37,6 +37,7 @@
 - [OnlyMeriz](https://github.com/Onlymeriz)
 - [Kazu](https://github.com/ionmusic)
 - [Uputt](https://github.com/iamuput)
+- [Dareen] (https://github.com/mikeel-ye)
 
 ## Credit 
 - Zaid Userbot
@@ -45,6 +46,7 @@
 - Kazu
 - Geez|Ram
 - Iamuput
+- Dareen
 ## Support / Channel
 
 <p align="center">𝐒𝐮𝐩𝐩𝐨𝐫𝐭 / 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ----> </p>

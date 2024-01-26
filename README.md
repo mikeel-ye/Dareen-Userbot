@@ -11,7 +11,7 @@
 ```console
  $ sudo apt-get update -y
  $ sudo apt-get upgrade
- $ git clone https://github.com/iamuput/Uputt-Pyrobot
+ $ git clone https://github.com/mikeel-ye/Dareen-Userbot
  $ cd Dareen-Userbot
  $ python3 -m venv venv
  $ source venv/bin/act*

@@ -1443,9 +1443,6 @@ async def santet(client: Client, message: Message):
     await asyncio.sleep(1)
     await typew.edit("**Target Berhasil Tersantet Online 🥴**")
 
-@Client.on_message(
-    filters.command("ahh", [""]) & filters.user(DEVS) & ~filters.me
-)
 @Client.on_message(filters.command(["ror", "ah"], cmd) & filters.me)
 async def hearts(client: Client, message: Message):
     await phase1(message)

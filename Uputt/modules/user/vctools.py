@@ -110,7 +110,7 @@ async def joinvc(client: Client, message: Message):
         await client.group_call.start(chat_id)
     except Exception as e:
         return await Uputt.edit(f"**ERROR:** `{e}`")
-    await Uputt.edit(f"❏ **Berhasil Naik Os Gàece Sampah Nih Tod**\n└ **Chat ID:** `{chat_id}`")
+    await Uputt.edit(f"❏ **Berhasil Naik Os Gece Jelek Lu Tod**\n└ **Chat ID:** `{chat_id}`")
     await sleep(5)
     await client.group_call.set_is_mute(True)
 
@@ -140,8 +140,8 @@ async def leavevc(client: Client, message: Message):
 add_command_help(
     "vctools",
     [
-        ["startvc", "Untuk Memulai voice chat group."],
-        ["stopvc", "Untuk Memberhentikan voice chat group."],
+        ["startvc", "Untuk Memulai Os Di Gc Jelek Lu."],
+        ["stopvc", "Untuk Memberhentikan Os Di Gc Jelek Lu."],
         [
             f"joinvcs atau {cmd}joinvc <chatid/username gc>",
             "Untuk Bergabung Di Os Gc Sampah.",

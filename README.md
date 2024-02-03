@@ -33,6 +33,9 @@
 <a href="https://heroku.com/deploy?template=https://github.com/mikeel-ye/Dareen-Userbot.git"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
+<p align="center">
+  <img src="https://telegra.ph//file/1900737a5d46bbae73304.jpg">
+
 
 ## Thanks to 
 - [Zaid](https://github.com/ITZ-ZAID)

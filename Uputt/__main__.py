@@ -11,7 +11,7 @@ from Uputt.helpers.misc import create_botlog, heroku
 BOT_VER = "2.0.0"
 CMD_HANDLER = ["." "?" "!" "*"]
 MSG_ON = """
-〆 **Dareen-Userbot Di Aktifkan** 〆
+〆 **Dareen-Userbot Dah Aktif Ngentod** 〆
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ㋱ **Userbot Version -** `{}`
 ㋱ **Ketik** `{}alive` **untuk Mengecek Bot**

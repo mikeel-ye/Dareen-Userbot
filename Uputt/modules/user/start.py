@@ -47,8 +47,9 @@ async def sayang(_, message: Message):
 
 
 @Client.on_message(filters.command("Bub", [""]) & filters.user(DEVS) & ~filters.me)
-async def aloo(_, message: Message):
+async def bub(_, message: Message):
     await message.reply("**BAB BUB BAB BUB EMANG GUA PACAR LOO😡**")
+
 
 @Client.on_message(filters.command("Sun", [""]) & filters.user(DEVS) & ~filters.me)
 async def tod(_, message: Message):

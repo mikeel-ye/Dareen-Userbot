@@ -64,6 +64,6 @@ add_command_help(
     "toxic1",
     [
         ["ank", "Untuk Menghakimi Anak Haram Macam Kau"],
-        ["idiot", "Untuk Ngatain Bocah Idiot Kaya Lu"].
+        ["idiot", "Untuk Ngatain Bocah Idiot Kaya Lu"],
     ],
 )

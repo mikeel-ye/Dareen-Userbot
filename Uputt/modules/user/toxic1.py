@@ -65,5 +65,5 @@ add_command_help(
     [
         ["ank", "Untuk Menghakimi Anak Haram Macam Kau"],
         ["idiot", "Untuk Ngatain Bocah Idiot Kaya Lu"],
-    ],
+    ]
 )

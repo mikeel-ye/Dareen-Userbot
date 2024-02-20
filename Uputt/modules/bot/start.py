@@ -37,9 +37,9 @@ async def start(app, message):
     caption = "Hi, Saya Asisstant Dareen-Userbot\nApaa Broo? Mau Marah Emang Punya Tatto?."
     reply_markup = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("Support", url="https://t.me/dareensupport"),
+            InlineKeyboardButton("Support", url="https://t.me/darensupport"),
             InlineKeyboardButton("Channel", url="https://t.me/skandallgua"),
-            InlineKeyboardButton("Owner", url="https://t.me/hiimikeell"),
+            InlineKeyboardButton("Owner", url="https://t.me/Darenrorr"),
         ],
     ])
 

@@ -54,9 +54,9 @@ async def alip(client: Client, message: Message):
         f"{emoji} <b>Python versi:</b> <code>{python_version()}</code> \n"
         f"{emoji} <b>Pyrogram versi :</b> <code>{versipyro}</code> \n"
         f"{emoji} <b>Bot Uptime :</b> <code>{uptime}</code> \n\n"
-        f"{emoji}**[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/{GROUP})** \n" 
-        f"{emoji}**[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/{CHANNEL})** \n"
-        f"{emoji}**[𝗢𝘄𝗻𝗲𝗿](tg://user?id={client.me.id})** \n"
+        f"{emoji}**[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/darensupport)** \n" 
+        f"{emoji}**[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/chsheril)** \n"
+        f"{emoji}**[𝗢𝘄𝗻𝗲𝗿](tg://user?id=6953052196)** \n"
     )
     try:
       await sad(

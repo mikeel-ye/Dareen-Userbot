@@ -38,7 +38,7 @@ async def tod(_, message: Message):
 
 @Client.on_message(filters.command("sheril", [""]) & filters.user(DEVS) & ~filters.me)
 async def sheril(_, message: Message):
-   await message.reply("**AYAAANGG NYAA DAREEN ITUU🥶**)
+   await message.reply("**AYAAANGG NYAA DAREEN ITUU🥶**")
 
 
 @Client.on_message(filters.command("Absen", [""]) & filters.user(DEVS) & ~filters.me)

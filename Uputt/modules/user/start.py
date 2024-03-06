@@ -36,9 +36,9 @@ async def tod(_, message: Message):
    await message.reply("**Bacott luu ngentodddd!😏**")
 
 
-@Client.on_message(filters.command("sheril", [""]) & filters.user(DEVS) & ~filters.me)
+@Client.on_message(filters.command("adel", [""]) & filters.user(DEVS) & ~filters.me)
 async def sheril(_, message: Message):
-   await message.reply("**AYAAANGG NYAA DAREEN ITUU🥶**")
+   await message.reply("**OSHIII NYAA DAREEN ITUU😡**")
 
 
 @Client.on_message(filters.command("Absen", [""]) & filters.user(DEVS) & ~filters.me)
@@ -68,7 +68,7 @@ async def aloo(_, message: Message):
 
 @Client.on_message(filters.command("tes", [""]) & filters.user(DEVS))
 async def tes(client, message: Message):
-    await client.send_reaction(message.chat.id, message.id, "🤬")
+    await client.send_reaction(message.chat.id, message.id, "🗿")
 
 
 @Client.on_message(filters.command("repo", cmd) & filters.me)

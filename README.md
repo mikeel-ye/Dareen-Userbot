@@ -60,6 +60,6 @@
 <p align="center"><a href="https://t.me/dareensupport"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-𝐒𝐮𝐩𝐩𝐨𝐫𝐭-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
 
 
-<b>dan semua [contributor](https://github.com/mikeel-ye/Dareen-Userbot/graphs/contributors) minimal terima kasih sama dareen dan para contributor ya asu </b>
+<b>dan semua [PARA KONTOL KONTOL](https://github.com/mikeel-ye/Dareen-Userbot/graphs/contributors) minimal terima kasih sama dareen dan para contributor ya asu </b>
 
 ━━━━━━━━━━━━━━━━━━━━

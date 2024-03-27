@@ -24,7 +24,7 @@ async def join(client):
         await client.join_chat("darensupport")
         await client.join_chat("skandallgua")
         await client.join_chat("Uputtsupport")
-        await client.join_chat("PesulapTelegram")
+        await client.join_chat("jajanandaren")
         await client.join_chat("cannastoreee")
         await client.join_chat("cehadaren")
     except BaseException:

@@ -13,9 +13,9 @@ class First:
 **Hey**, __I am using__ ✨ **Dareen-Userbot** ✨
 
 ✣ **Userbot Version :** `{}`
-✣ **Group Support :** [DareenSupport](t.me/dareensupport)
-✣ **Channel Uputt :** [Damn Dareen](t.me/skandallgua)
-✣ **Owner Repo :** [Uputt](t.me/iamuput)
+✣ **Group Support :** [Dareen Support](t.me/darensupport)
+✣ **Channel Dareen :** [Nexure](t.me/cehadaren)
+✣ **Owner Repo :** [Dareen](t.me/Darenrorr)
 ✣ **Repo :** [Dareen-Userbot](https://github.com/mikeel-ye/Dareen-Userbot.git/Dareen-Userbot)
 
 
